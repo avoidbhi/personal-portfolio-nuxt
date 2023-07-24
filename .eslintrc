@@ -1,0 +1,83 @@
+{
+    "root": true,
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "extends": [
+        "@nuxtjs/eslint-config-typescript"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            4
+        ],
+        "space-before-function-paren": [
+            "error",
+            {
+                "anonymous": "always",
+                "named": "never"
+            }
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "comma-dangle": [
+            "error",
+            "only-multiline"
+        ],
+        "import/order": [
+            "error",
+            {
+                "groups": [],
+                "newlines-between": "ignore",
+                "pathGroups": [
+                    {
+                        "pattern": "nuxt",
+                        "group": "external",
+                        "position": "before"
+                    }
+                ],
+                "pathGroupsExcludedImportTypes": [
+                    "builtin"
+                ]
+            }
+        ]
+    },
+    "overrides": [
+        {
+            "files": [
+                "*.vue"
+            ],
+            "rules": {
+                "vue/html-indent": [
+                    "error",
+                    4
+                ]
+            }
+        },
+        {
+            "files": [
+                "./server/**/*.ts"
+            ],
+            "rules": {
+                "no-console": [
+                    "error",
+                    {
+                        "allow": [
+                            "info",
+                            "warn",
+                            "trace",
+                            "error"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

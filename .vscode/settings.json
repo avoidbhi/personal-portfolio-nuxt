@@ -1,0 +1,26 @@
+{
+    // Use 'eslint' for vue, ts and js files
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "[js]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "Vue.volar"
+    },
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "typescript"
+    ],
+    "files.associations": {
+        "*.css": "tailwindcss",
+    },
+    "volar.autoCompleteRefs": true,
+    "volar.experimental.templateInterpolationService": true,
+    "typescript.tsdk": "node_modules/typescript/lib",
+}
