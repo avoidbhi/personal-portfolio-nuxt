@@ -1,0 +1,22 @@
+:root {
+    --at-apply: text-gray-800 font-normal text-14px;
+
+    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+}
+
+html {
+    --at-apply: h-full;
+}
+
+body {
+    --at-apply: m-0 p-0 overflow-hidden w-screen h-screen;
+}
+
+#__nuxt {
+    --at-apply: h-full;
+}

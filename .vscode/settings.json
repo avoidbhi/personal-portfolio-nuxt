@@ -4,13 +4,13 @@
         "source.fixAll.eslint": true
     },
     "[vue]": {
-        "editor.defaultFormatter": "Vue.volar"
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "[js]": {
         "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "[typescript]": {
-        "editor.defaultFormatter": "Vue.volar"
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
     },
     "eslint.validate": [
         "html",
